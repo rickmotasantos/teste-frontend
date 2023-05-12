@@ -1,0 +1,65 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    height: 80px;
+    margin-top: 15px;
+    max-width: 1200px;
+}
+
+.cabecalho a i {
+    display: none;
+    font-size: 22px;
+}
+.cabecalho .left {
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    border-bottom:  1px solid #7a7a7a;
+}
+
+.left input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    font-weight: 400;
+}
+
+.left img {
+    height: 18px;
+    width: 18px;
+    margin-top: 15px;
+}
+.cabecalho .right {
+    display: flex;
+}
+
+.right .carrinho {
+    display: flex;
+}
+.right img {
+    height: 18px;
+    margin-right: 8px;
+}
+
+.right p {
+    margin-right: 20px;
+    color: #7a7a7a;
+}
+
+.right .quantCarrinho {
+    background-color: #2ec4b6;
+    height: 14px;
+    padding: 5px;
+    margin-left: -4.87px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quantCarrinho span {
+    font-size: 10px;
+    color: #fff;
+}

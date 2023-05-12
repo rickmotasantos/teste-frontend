@@ -1,0 +1,240 @@
+.content {
+    max-width: 1920px;
+}
+
+.contentTotal {
+    display: flex;
+    width: 100%;
+    height: 430px;
+}
+
+.contentTotal .left {
+    width: 960px;
+    height: 430px;
+    background-color: rgba(1, 22, 39, 1);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.contentTotal .left h1 {
+    max-width: 521px;
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 180px;
+    color: #fff;
+}
+
+.contentTotal .left h2 {
+    margin-left: 180px;
+    width: 45px;
+    border-bottom: 2px solid #ff9f1c;
+} 
+
+.contentTotal .right .cor-fundo{
+    position: absolute;
+    background-color: rgba(46, 196, 182, 0.4);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.contentTotal .right h1 {    
+    font-weight: 700;
+    color: #fff;
+    font-size: 30px;
+    max-width: 277px;
+    margin: 40px;
+    display: none;
+    
+}
+
+.right .cor-fundo p {
+    border-bottom: 2px solid #ff9f1c;
+}
+
+.contentTotal .right img {
+    width: 100%;
+    height: 100%;
+}
+
+.conteudo .titulo-produtos {
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+
+.conteudo h1 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 111px;
+    margin-bottom: -15px;
+}
+
+.conteudo img {
+    margin-top: 11px;
+}
+
+.produtos {
+    margin: 0 auto;
+    max-width: 100%;
+    height: 407px;
+    margin-bottom: 169px;
+    padding: 54px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+}
+
+.produtos-1 {
+    margin: 0 auto;
+    max-width: 100%;
+    height: 407px;
+    margin-bottom: 169px;
+    padding: 54px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.produto-conteudo {
+    background-color: #f2f2f2;
+    width: 216px;
+    height: 353px;
+    border-radius: 10px;
+    border: 1.44041px solid #F2F2F2;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+ .marca-desconto {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    display: none;
+}
+
+.marca-desconto img {
+    border-top-right-radius: 10px;
+}
+
+.adicionar-marca {
+    display: flex;
+}
+.produto-conteudo .marca-desconto img {
+    width: 81px;
+    height: 72px;
+}
+
+.produto-conteudo .marca-desconto span {
+    position: absolute;
+    margin: 5px 10px;
+    color: #fff;
+    font-size: 17px;
+}
+
+.produto-conteudo .tag {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: -40px;
+}
+
+.produto-conteudo .tag img {
+    width: 50px;
+    height: 40px;
+}
+
+.produto-conteudo .tag p {
+    position: absolute;
+    font: 500;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    font-size: 10px;
+    margin: 7px 4px;
+}
+.produto-conteudo:hover .botao-comprar {
+    opacity: 1;
+}
+
+.produto-conteudo .img img {
+    width: 180px;
+    height: 149px;
+    margin-top: 29px;
+}
+
+.produto-conteudo .img .img-tamanho {
+    width: 180px;
+    height: 149px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    display: flex;
+    align-items: center;
+}
+
+.produto-conteudo h2 {
+    font-weight: 500;
+    font-size: 12px;
+    color: #7a7a7a;
+    margin-top: 28px;
+    margin-bottom: 0;
+}
+
+.produto-conteudo .preco-normal h4,
+.produto-conteudo .preco-normal del {
+    font-weight: 400;
+    font-size: 12px;
+    color: #7a7a7a;
+    margin-top: 3px;
+}
+
+.produto-conteudo .preco-desconto {
+    font-weight: 500;
+    font-size: 18px;
+    color: #2ec4b6;
+    margin-top: -8px;
+}
+
+.produto-conteudo .parcela {
+    font-weight: 400;
+    font-size: 11px;
+    color: #7a7a7a;
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+
+.produto-conteudo .botao-comprar {
+    width: 125px;
+    height: 32px;
+    background-color: #2ec4b6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.1s ease-in-out;
+    opacity: 0;
+}
+
+.botao-comprar a img {
+    height: 15px;
+}
+
+.botao-comprar a span {
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+}

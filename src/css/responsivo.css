@@ -1,0 +1,31 @@
+@media (max-width: 750px) {
+
+    .cabecalho {
+        margin: 15px 50px;
+    }
+   .right {
+    justify-content: space-between;
+    width: 100%;
+   }
+
+   .right .cor-fundo h1 {
+    display: block;
+   }
+    .right a i {
+    display: block;
+   }
+   
+    .right .img-login,
+   .right p {
+    display: none;
+   } 
+
+   .marcaAgua h1 {
+    display: block;
+   }
+
+   .contentTotal .left {
+    display: none;
+   }
+   
+}
